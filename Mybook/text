@@ -1,0 +1,14 @@
+        <form method="POST" , action="">
+          <legend class="border-bottom mb-4">Login</legend>
+          {{ log_form.username.label(class="form-control-label") }} {{
+          log_form.username(class="form-control form-control-lg") }}
+          log_form.password.label(class="form-control-label") }} {{
+          log_form.password.(class="form-control-label") }}
+        </form>
+
+
+
+        {{
+          reg_form.password.label(class="form-control-label") }} {{
+          reg_form.password.(class="form-control-label") }} {{
+          reg_form.submit(class="btn btn-outline-info") }}
